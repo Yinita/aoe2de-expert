@@ -1,4 +1,4 @@
-/* Sources verified 2026-11-16. Publication dates are distinct from verification dates. Training designs are editorial synthesis; see original sources. */
+/* Sources verified through 2026-11-17. Publication dates differ from verification dates. Training designs are editorial synthesis. */
 const SOURCES = [
   {
     "id": "patch",
@@ -463,6 +463,864 @@ const SOURCES = [
     "publishedAt": "2026-02-17",
     "access": "公开",
     "maps": "Hybrid / Water / Nomad"
+  },
+  {
+    "id": "f1re-tc-decision",
+    "name": "F1Re · 加 TC 前的六个问题",
+    "originalTitle": "Even Pros Get This Wrong: When to Add TCs | AoE2",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ",
+    "type": "职业教学",
+    "desc": "作者以自己加 TC 前的问题链展开，再分析 Lam vs Goku 的不列颠对蒙古案例：能否通过军队投入造成伤害、能否拿到对方黄金、地图是否有弱点、自家能否抵御更大军队、资源是否暴露，以及谁的后期更强。简介还明确指出案例中单 TC 的大学/弹道投入没有兑现伤害，另一方受损后加第三 TC 又无法维持双线生产。",
+    "short": "TC 投资 / 经济与兵力分岔",
+    "language": "英文 / 术语与章节",
+    "symbol": "F",
+    "caution": "2026 年重新发布的公开教练课；职业赛示例的具体录制年份未在本次读取的本人简介中注明。约六田供一 TC 是示例估算，受文明、采集和其他食物支出影响，不是统一配方。",
+    "publishedAt": "2026-10-23",
+    "publishedAtISO": "2026-10-23T22:15:20-07:00",
+    "publishedAtCN": "2026-10-24",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "开放图 / Arabia",
+    "durationSeconds": 1244,
+    "chapters": [
+      {
+        "seconds": 0,
+        "label": "先检查对手地图：黄金与可攻击弱点",
+        "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ&t=0"
+      },
+      {
+        "seconds": 116,
+        "label": "再检查自己地图：防守与暴露资源",
+        "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ&t=116"
+      },
+      {
+        "seconds": 201,
+        "label": "比较文明后期",
+        "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ&t=201"
+      },
+      {
+        "seconds": 455,
+        "label": "单 TC 科技投资未兑现伤害的案例",
+        "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ&t=455"
+      },
+      {
+        "seconds": 793,
+        "label": "受损后加第三 TC 的负担",
+        "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ&t=793"
+      },
+      {
+        "seconds": 1140,
+        "label": "加 TC 前的问题回顾",
+        "url": "https://www.youtube.com/watch?v=mIxFjru2yrQ&t=1140"
+      }
+    ],
+    "keywords": [
+      "TC 决策",
+      "经济规划",
+      "读局"
+    ],
+    "evidence": "作者简介、章节与原生元数据",
+    "modes": [
+      "solo"
+    ]
+  },
+  {
+    "id": "f1re-attack-checklist",
+    "name": "F1Re · 出门进攻前，先确认敌军位置",
+    "originalTitle": "Stop Attacking at the Wrong Time | AoE2",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=Ggwe4cjiALc",
+    "type": "职业教学",
+    "desc": "作者用自己蒙古对印度斯坦的旧 Arabia 对局，讨论离家后能造成多少伤害、会承受多少伤害、是否掌握敌军位置、双方经济与军力谁领先，以及各阶段文明强弱。简介明确区分地图控制与军队控制，并给出小规模骚扰、领先时的守势、落后时选择最后一次机会等讨论入口。",
+    "short": "地图控制 ≠ 敌军位置已知",
+    "language": "英文 / 术语与章节",
+    "symbol": "F",
+    "caution": "发布于 2026 年，但作者明确说录像中的印度斯坦当时仍称 Indians，案例显著早于新文明改名。保留决策问题，旧科技树与文明阶段强弱须重验。",
+    "publishedAt": "2026-10-23",
+    "publishedAtISO": "2026-10-23T22:15:34-07:00",
+    "publishedAtCN": "2026-10-24",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "开放图 / Arabia",
+    "durationSeconds": 698,
+    "chapters": [
+      {
+        "seconds": 45,
+        "label": "进攻收益与离家风险",
+        "url": "https://www.youtube.com/watch?v=Ggwe4cjiALc&t=45"
+      },
+      {
+        "seconds": 113,
+        "label": "地图控制与军队控制的区别",
+        "url": "https://www.youtube.com/watch?v=Ggwe4cjiALc&t=113"
+      },
+      {
+        "seconds": 149,
+        "label": "分别判断经济领先与军力领先",
+        "url": "https://www.youtube.com/watch?v=Ggwe4cjiALc&t=149"
+      },
+      {
+        "seconds": 213,
+        "label": "文明窗口与落后时的机会",
+        "url": "https://www.youtube.com/watch?v=Ggwe4cjiALc&t=213"
+      },
+      {
+        "seconds": 599,
+        "label": "骚扰与败局复盘",
+        "url": "https://www.youtube.com/watch?v=Ggwe4cjiALc&t=599"
+      }
+    ],
+    "keywords": [
+      "进攻决策",
+      "敌军位置",
+      "风险控制"
+    ],
+    "evidence": "作者简介、章节与原生元数据",
+    "modes": [
+      "solo"
+    ]
+  },
+  {
+    "id": "f1re-blacksmith-choice",
+    "name": "F1Re · 铁匠铺先升什么：目标、己方兵、敌方兵",
+    "originalTitle": "Which Blacksmith Upgrade First? 3 Questions Decide It | AoE2",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws",
+    "type": "职业教学",
+    "desc": "作者把铁匠铺优先级拆成三个问题：本轮想做什么、己方是什么单位、要面对什么单位。简介与章节分别讨论骑士骚扰、骑士与弩兵、长枪与骑士、掷矛兵、僧侣生命值，以及骑射面对投石的存活问题；适合逐对位建立自己的升级备忘录。",
+    "short": "升级收益 / 对位与目的",
+    "language": "英文 / 术语与章节",
+    "symbol": "F",
+    "caution": "简介主动要求按当前补丁核查 HP 与伤害。章节中的某一对位建议依赖兵量、升级与战术目标，不能据此写成无条件反制表。未获取视频字幕。",
+    "publishedAt": "2026-10-23",
+    "publishedAtISO": "2026-10-23T22:15:51-07:00",
+    "publishedAtCN": "2026-10-24",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "全地图",
+    "durationSeconds": 876,
+    "chapters": [
+      {
+        "seconds": 0,
+        "label": "目标、己方单位、敌方单位三个问题",
+        "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws&t=0"
+      },
+      {
+        "seconds": 37,
+        "label": "骑士骚扰村民的升级目的",
+        "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws&t=37"
+      },
+      {
+        "seconds": 397,
+        "label": "骑士面对弩兵",
+        "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws&t=397"
+      },
+      {
+        "seconds": 561,
+        "label": "长枪面对骑士",
+        "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws&t=561"
+      },
+      {
+        "seconds": 735,
+        "label": "僧侣生命值升级",
+        "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws&t=735"
+      },
+      {
+        "seconds": 758,
+        "label": "骑射与投石的存活交互",
+        "url": "https://www.youtube.com/watch?v=bhOnwY9G_ws&t=758"
+      }
+    ],
+    "keywords": [
+      "铁匠铺",
+      "伤害阈值",
+      "升级优先级"
+    ],
+    "evidence": "作者简介、章节与原生元数据",
+    "modes": [
+      "solo"
+    ]
+  },
+  {
+    "id": "f1re-scout-pressure",
+    "name": "F1Re · 防住斥候后，怎样逼出对手的反制投资",
+    "originalTitle": "Losing to Scouts? Force His Range | AoE2",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=3MKY2K8HWUc",
+    "type": "职业教学",
+    "desc": "作者复盘一位 1600+ 学员的马里对马扎尔 Arabia 对局：第一轮剑士打赢后留在家中，让对手自由围墙、铺田和选择补靶场时机。简介讨论前置长矛配合弓兵施压，迫使斥候方为防守追加靶场、掷矛兵与升级的思路，重点是胜利后如何继续施加经济约束。",
+    "short": "主动权 / 迫使对手改变经济",
+    "language": "英文 / 术语与章节",
+    "symbol": "F",
+    "caution": "这是具体学员对局分析，不是所有对位都必须强行前压。转进攻前应重新判断敌军位置、自家暴露资源和补兵；文明加成与具体开局时点按当前正式服核查。",
+    "publishedAt": "2026-10-23",
+    "publishedAtISO": "2026-10-23T21:44:11-07:00",
+    "publishedAtCN": "2026-10-24",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "开放图 / Arabia",
+    "durationSeconds": 1573,
+    "chapters": [
+      {
+        "seconds": 233,
+        "label": "长矛先于剑士前进的案例",
+        "url": "https://www.youtube.com/watch?v=3MKY2K8HWUc&t=233"
+      },
+      {
+        "seconds": 411,
+        "label": "长矛停家中的机会成本",
+        "url": "https://www.youtube.com/watch?v=3MKY2K8HWUc&t=411"
+      },
+      {
+        "seconds": 673,
+        "label": "主动权何时被交还",
+        "url": "https://www.youtube.com/watch?v=3MKY2K8HWUc&t=673"
+      },
+      {
+        "seconds": 1093,
+        "label": "迫使对手补靶场的原则",
+        "url": "https://www.youtube.com/watch?v=3MKY2K8HWUc&t=1093"
+      },
+      {
+        "seconds": 1398,
+        "label": "斥候经济对农田的依赖",
+        "url": "https://www.youtube.com/watch?v=3MKY2K8HWUc&t=1398"
+      }
+    ],
+    "keywords": [
+      "封建主动权",
+      "反压",
+      "斥候应对"
+    ],
+    "evidence": "作者简介、章节与原生元数据",
+    "modes": [
+      "solo"
+    ]
+  },
+  {
+    "id": "f1re-small-wall-review",
+    "name": "F1Re · 小墙防剑士：从两场 Arabia 学员录像找成本",
+    "originalTitle": "Student Review: How to Hold Man at Arms With Small Walls | AoE2",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=Yg19PbDlSlg",
+    "type": "职业教学",
+    "desc": "当前本人标题为 Student Review: How to Hold Man at Arms With Small Walls。作者复盘拜占庭对阿兹特克、中国对保加利亚两局，讨论过大的黑暗时代围墙、前置建筑暴露、小范围保护浆果与 TC 周边建筑布局，并给出一个可重复的小墙练习。",
+    "short": "局部防守 / 低成本保经济",
+    "language": "英文 / 术语与章节",
+    "symbol": "F",
+    "caution": "主要案例为 1100+ 学员；高分玩家可用来审计防守成本，不能把示例的三村围墙或磨坊位置当成所有地图的标准答案。发现聚合站标题较旧，本站采用本人当前标题与元数据。",
+    "publishedAt": "2026-10-23",
+    "publishedAtISO": "2026-10-23T21:36:47-07:00",
+    "publishedAtCN": "2026-10-24",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "开放图 / Arabia",
+    "durationSeconds": 1293,
+    "chapters": [
+      {
+        "seconds": 342,
+        "label": "过大围墙带来的问题",
+        "url": "https://www.youtube.com/watch?v=Yg19PbDlSlg&t=342"
+      },
+      {
+        "seconds": 485,
+        "label": "面对剑士文明时的建筑位置",
+        "url": "https://www.youtube.com/watch?v=Yg19PbDlSlg&t=485"
+      },
+      {
+        "seconds": 587,
+        "label": "浆果区域的小墙示例",
+        "url": "https://www.youtube.com/watch?v=Yg19PbDlSlg&t=587"
+      },
+      {
+        "seconds": 772,
+        "label": "TC 附近的小墙练习",
+        "url": "https://www.youtube.com/watch?v=Yg19PbDlSlg&t=772"
+      },
+      {
+        "seconds": 1079,
+        "label": "后续弓兵到来时的防守",
+        "url": "https://www.youtube.com/watch?v=Yg19PbDlSlg&t=1079"
+      }
+    ],
+    "keywords": [
+      "小墙",
+      "防守",
+      "资源暴露"
+    ],
+    "evidence": "作者简介、章节与原生元数据",
+    "modes": [
+      "solo"
+    ]
+  },
+  {
+    "id": "sotl-camel-archer-2025",
+    "name": "Spirit Of The Law · 骆驼弓的加成、对位与成型成本",
+    "originalTitle": "How good are Camel Archers? (AoE2)",
+    "author": "Spirit Of The Law",
+    "url": "https://www.youtube.com/watch?v=mFcNfmUqg0A",
+    "type": "机制与训练",
+    "desc": "本人单位分析视频，章节覆盖城堡期属性和加成伤害、对城堡期单位的测试、帝王升级以及军队组合。适合把“克制骑射”拆成具体护甲类别、升级、兵量与生产条件进行核查；本次只读取作者简介与章节，未取得测试的完整结果。",
+    "short": "单位机制 / 控制变量测试",
+    "language": "英文 / 术语与章节",
+    "symbol": "SOTL",
+    "caution": "2025 年单位分析，具体数值需按当前科技树重查；2026 年新增 Mounted Crossbowmen 后，不能把对旧 Cavalry Archer 的结论直接移植。",
+    "publishedAt": "2025-01-23",
+    "publishedAtISO": "2025-01-23T07:48:06-08:00",
+    "publishedAtCN": "2025-01-23",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "全地图",
+    "durationSeconds": 911,
+    "chapters": [
+      {
+        "seconds": 44,
+        "label": "城堡期属性与加成",
+        "url": "https://www.youtube.com/watch?v=mFcNfmUqg0A&t=44"
+      },
+      {
+        "seconds": 180,
+        "label": "额外伤害",
+        "url": "https://www.youtube.com/watch?v=mFcNfmUqg0A&t=180"
+      },
+      {
+        "seconds": 285,
+        "label": "城堡期单位对位",
+        "url": "https://www.youtube.com/watch?v=mFcNfmUqg0A&t=285"
+      },
+      {
+        "seconds": 573,
+        "label": "帝王期升级",
+        "url": "https://www.youtube.com/watch?v=mFcNfmUqg0A&t=573"
+      },
+      {
+        "seconds": 785,
+        "label": "军队组合",
+        "url": "https://www.youtube.com/watch?v=mFcNfmUqg0A&t=785"
+      }
+    ],
+    "keywords": [
+      "骆驼弓",
+      "伤害加成",
+      "兵种组合"
+    ],
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "sotl-fire-archer-2025",
+    "name": "Spirit Of The Law · 吴国 Fire Archer：打兵、攻城与拆家",
+    "originalTitle": "The new Fire Archer (Obsidian Arrows is back??)",
+    "author": "Spirit Of The Law",
+    "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI",
+    "type": "机制与训练",
+    "desc": "作者对吴国城堡特殊单位 Fire Archer 做专题分析，分别与普通弩兵比较，并安排对建筑、攻城器、城堡期单位和帝王期单位的章节。它提供按作战目标分开检验同一单位的研究结构，适合准备具体对位；本次没有读取完整字幕，因此不转述测试胜负或数值结论。",
+    "short": "单位实验 / 作战目标改变收益",
+    "language": "英文 / 术语与章节",
+    "symbol": "SOTL",
+    "caution": "发布于 2025-05；后续单位平衡、文明科技和建筑护甲可能改变测试结果。以当前正式服重跑对照，不能把旧版拆家效率当作当前承诺。",
+    "publishedAt": "2025-05-15",
+    "publishedAtISO": "2025-05-15T07:40:27-07:00",
+    "publishedAtCN": "2025-05-15",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "全地图",
+    "durationSeconds": 768,
+    "chapters": [
+      {
+        "seconds": 40,
+        "label": "与普通弩兵比较",
+        "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI&t=40"
+      },
+      {
+        "seconds": 142,
+        "label": "对建筑的表现",
+        "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI&t=142"
+      },
+      {
+        "seconds": 322,
+        "label": "对攻城器的表现",
+        "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI&t=322"
+      },
+      {
+        "seconds": 415,
+        "label": "城堡期对位",
+        "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI&t=415"
+      },
+      {
+        "seconds": 525,
+        "label": "帝王升级",
+        "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI&t=525"
+      },
+      {
+        "seconds": 664,
+        "label": "帝王期对建筑",
+        "url": "https://www.youtube.com/watch?v=aEYiMjv2hLI&t=664"
+      }
+    ],
+    "keywords": [
+      "Fire Archer",
+      "建筑伤害",
+      "攻城交互"
+    ],
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "sotl-september-2026",
+    "name": "Spirit Of The Law · 2026 九月补丁的单位交互导读",
+    "originalTitle": "Summary of the HUGE September patch! (AoE2)",
+    "author": "Spirit Of The Law",
+    "url": "https://www.youtube.com/watch?v=dwb67mhbNQM",
+    "type": "机制与训练",
+    "desc": "本人对 185872 的公开导读，简介直接链接官方补丁；章节按步兵、攻城、海军、建筑起重机、Mounted Crossbows、加强和削弱的独特单位，以及匈奴/维京/越南的杂项变化组织。可用它筛出自己的文明池需要重新测试的交互，再回到官方数据和实战。",
+    "short": "补丁理解 / 找到需要重测的对位",
+    "language": "英文 / 术语与章节",
+    "symbol": "SOTL",
+    "caution": "这是 2026-09 的补丁解释，早于现有正式版基线 188329。不能单凭导读确定当前数值，也不能从章节标题推断尚未读取的战略结论。",
+    "publishedAt": "2026-09-22",
+    "publishedAtISO": "2026-09-22T14:52:42-07:00",
+    "publishedAtCN": "2026-09-23",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "全地图",
+    "durationSeconds": 544,
+    "chapters": [
+      {
+        "seconds": 24,
+        "label": "步兵变化",
+        "url": "https://www.youtube.com/watch?v=dwb67mhbNQM&t=24"
+      },
+      {
+        "seconds": 52,
+        "label": "攻城变化",
+        "url": "https://www.youtube.com/watch?v=dwb67mhbNQM&t=52"
+      },
+      {
+        "seconds": 85,
+        "label": "海战变化",
+        "url": "https://www.youtube.com/watch?v=dwb67mhbNQM&t=85"
+      },
+      {
+        "seconds": 182,
+        "label": "Mounted Crossbows",
+        "url": "https://www.youtube.com/watch?v=dwb67mhbNQM&t=182"
+      },
+      {
+        "seconds": 244,
+        "label": "部分独特单位加强",
+        "url": "https://www.youtube.com/watch?v=dwb67mhbNQM&t=244"
+      },
+      {
+        "seconds": 333,
+        "label": "部分独特单位削弱",
+        "url": "https://www.youtube.com/watch?v=dwb67mhbNQM&t=333"
+      }
+    ],
+    "keywords": [
+      "版本更新",
+      "区域兵种",
+      "机制实验"
+    ],
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "survivalist-reset-drills",
+    "name": "Survivalist · 用保存与加载做重复局面训练",
+    "originalTitle": "The Most Efficient Way to Improve at Age of Empires 2",
+    "author": "Survivalist",
+    "url": "https://www.youtube.com/watch?v=Lt4N-5-OeAk",
+    "type": "机制与训练",
+    "desc": "作者说明如何通过保存、加载游戏重复练习，把多任务和微操/宏观协调拆开训练，并指出可在单人游戏以及有练习伙伴的多人游戏中使用。对高分玩家的价值是减少等待同类局面自然出现的成本，再把动作放回完整对局验证。",
+    "short": "刻意练习 / 缩短反馈周期",
+    "language": "英文 / 术语与章节",
+    "symbol": "S",
+    "caution": "2023 年常青练习方法，非当下 meta。存档兼容和多人设置受游戏版本限制；固定存档练得更好不等于真实对手下已经迁移成功。",
+    "publishedAt": "2023-06-27",
+    "publishedAtISO": "2023-06-27T09:49:11-07:00",
+    "publishedAtCN": "2023-06-28",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "全地图",
+    "durationSeconds": 480,
+    "chapters": [
+      {
+        "seconds": 132,
+        "label": "多任务",
+        "url": "https://www.youtube.com/watch?v=Lt4N-5-OeAk&t=132"
+      },
+      {
+        "seconds": 166,
+        "label": "协调微操与宏观",
+        "url": "https://www.youtube.com/watch?v=Lt4N-5-OeAk&t=166"
+      },
+      {
+        "seconds": 267,
+        "label": "单项任务练习",
+        "url": "https://www.youtube.com/watch?v=Lt4N-5-OeAk&t=267"
+      },
+      {
+        "seconds": 302,
+        "label": "通过保存与加载重复局面",
+        "url": "https://www.youtube.com/watch?v=Lt4N-5-OeAk&t=302"
+      }
+    ],
+    "keywords": [
+      "练习设计",
+      "保存加载",
+      "微操宏观"
+    ],
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "survivalist-micro-1900",
+    "name": "Survivalist · 1900 分段完整科技树微操训练课",
+    "originalTitle": "Full Tech Tree Micro Practice | Coaching 1900 (1 Dec/2023)",
+    "author": "Survivalist Gameplay",
+    "url": "https://www.youtube.com/watch?v=w51jbz0LSYg",
+    "type": "机制与训练",
+    "desc": "Survivalist Gameplay 本人频道的 Full Tech Tree Micro Practice | Coaching 1900，标题注明实录为 2023-12-01。可以把它作为高分微操练习的完整案例入口，观察如何用专门场景研究操作；本次已核验标题、作者、长度与简介，没有取得课程字幕，因此不代替观看原课。",
+    "short": "高分训练案例 / 隔离操作变量",
+    "language": "英文 / 术语",
+    "symbol": "S",
+    "caution": "2024-06-05 上传，实录为 2023-12-01，两个日期不同。完整科技树场景不代表具体文明实战可用兵种；2026 寻路、堆叠与单位数值应重新验证。",
+    "publishedAt": "2024-06-05",
+    "publishedAtISO": "2024-06-05T13:00:16-07:00",
+    "publishedAtCN": "2024-06-06",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "verification": "已读取作者完整简介、章节（如有）与 YouTube 原生标题/作者/publishDate；未观看完整视频，未获取字幕。",
+    "verificationSource": "本人 YouTube 页面的 ytInitialPlayerResponse.videoDetails 与 microformat.playerMicroformatRenderer",
+    "maps": "全地图",
+    "durationSeconds": 2027,
+    "chapters": [],
+    "keywords": [
+      "微操",
+      "高分教练课",
+      "训练场景"
+    ],
+    "evidence": "标题、长度与作者简介"
+  },
+  {
+    "id": "tg-rf6-sensar-20260812",
+    "name": "Ornlu × Sensar：Rage Forest 6 的 4v4 文明讨论",
+    "author": "Ornlu the Wolf / Sensar",
+    "url": "https://www.youtube.com/watch?v=cjj5SmViE8o",
+    "type": "机制与训练",
+    "desc": "RF6 主办者 Sensar 与 Ornlu 的公开长篇讨论，作者明确以 4v4 黑森林赛事为语境。适合研究文明如何服务团队阵容；本次只核验作者说明，未把各文明具体档位写成已验证结论。",
+    "short": "RF 专项阵容 / 文明角色",
+    "language": "英文",
+    "symbol": "RF",
+    "caution": "2026年8月的 RF6 观点；晚于该赛事的平衡变化需另核对，不能当作当前通用排名。",
+    "publishedAt": "2026-08-12",
+    "access": "公开",
+    "mode": "team",
+    "verification": "2026-11-17：直接读取 YouTube watch 原页 publishDate、作者 shortDescription 和 oEmbed 标题/作者；未取得字幕正文，介绍仅限作者明确描述。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "Rage Forest",
+      "群局分工",
+      "文明组合",
+      "备赛"
+    ],
+    "maps": "Black Forest / Rage Forest",
+    "evidence": "作者说明与原生元数据"
+  },
+  {
+    "id": "tg-hera-bf-guide-20230716",
+    "name": "Hera：黑森林完整地图教学",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.youtube.com/watch?v=1V_jsU9PF8Y",
+    "type": "职业教学",
+    "desc": "公开结构课，章节覆盖地图特征、争夺目标、常见策略、适合的文明风格与职业细节。02:56 讨论争夺目标，06:05 常见策略，09:54 文明风格。可作为 RF 实战之前的框架课。",
+    "short": "地图目标 → 常见策略 → 文明风格",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "经典教学，2023-07-16发布。只据作者章节核验内容范围；旧文明与捕鱼细节不可直接套到2026版。",
+    "publishedAt": "2023-07-16",
+    "access": "公开",
+    "mode": "team",
+    "verification": "2026-11-17：原站发布日期、作者及完整章节说明已核验；未取得字幕正文，不声称已经逐句看完视频。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "Rage Forest",
+      "地图目标",
+      "团队角色",
+      "结构化教学"
+    ],
+    "maps": "Black Forest / Rage Forest",
+    "evidence": "作者简介、章节与原生元数据",
+    "chapters": [
+      {
+        "seconds": 176,
+        "label": "争夺目标",
+        "url": "https://www.youtube.com/watch?v=1V_jsU9PF8Y&t=176"
+      },
+      {
+        "seconds": 365,
+        "label": "常见策略",
+        "url": "https://www.youtube.com/watch?v=1V_jsU9PF8Y&t=365"
+      },
+      {
+        "seconds": 594,
+        "label": "文明风格",
+        "url": "https://www.youtube.com/watch?v=1V_jsU9PF8Y&t=594"
+      }
+    ]
+  },
+  {
+    "id": "tg-sotl-trade-tests-20210916",
+    "name": "Spirit Of The Law：贸易加成的对照测试方法",
+    "author": "Spirit Of The Law",
+    "url": "https://www.youtube.com/watch?v=C3XyErzCvB8",
+    "type": "机制与训练",
+    "desc": "原作者机制测试，00:40 介绍测试，随后分别比较贸易单位成本、黄金成本、贸易收入和市场生产速度等不同加成。适合学习如何让不同经济加成进入同一实验框架，具体优劣与旧加成数字不沿用。",
+    "short": "等投入对照 / 贸易回本实验",
+    "language": "英文",
+    "symbol": "SOTL",
+    "caution": "2021年的历史实验。文明、贸易速度和加成均可能已改；当作实验设计参考，所有当前结果需重测。",
+    "publishedAt": "2021-09-16",
+    "access": "公开",
+    "mode": "team",
+    "verification": "2026-11-17：YouTube 原页日期、标题、作者与测试章节已核验；未读取字幕，不将旧排名或数值转述成当前事实。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "贸易",
+      "机制实测",
+      "机会成本",
+      "文明加成"
+    ],
+    "maps": "有贸易空间的群局地图",
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "map-sotl-naval-20260303",
+    "name": "Spirit Of The Law：2026 海战重做的分章讲解",
+    "author": "Spirit Of The Law",
+    "url": "https://www.youtube.com/watch?v=4uXxCFMCjxw",
+    "type": "机制与训练",
+    "desc": "正式海战重做后的机制导览。章节含渔船、贸易船、船坞升级、大学科技、新海战克制关系、Catapult Galleon、自爆船与海军特色单位。不是仅讨论尚未发布内容的 PUP 预览。",
+    "short": "捕鱼经济 / 海军升级 / 水面克制",
+    "language": "英文",
+    "symbol": "SEA",
+    "caution": "2026-03-03的重做后讲解，之后仍有正式平衡更新。适合作为机制底图，精确数值以当前正式版本为准。",
+    "publishedAt": "2026-03-03",
+    "access": "公开",
+    "mode": "mixed",
+    "verification": "2026-11-17：原站 publishDate 与说明全文、章节已核验；本次未取得字幕正文，不复述章节以外的实测结论。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "混合图",
+      "海战",
+      "捕鱼",
+      "贸易船"
+    ],
+    "maps": "混合图 / 海图 / Nomad",
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "map-sotl-conversions-20260508",
+    "name": "Spirit Of The Law：2026 僧侣转换机制",
+    "author": "Spirit Of The Law",
+    "url": "https://www.youtube.com/watch?v=ak1ZAHxwjXo",
+    "type": "机制与训练",
+    "desc": "作者明确对照2023机制重做前后的转换规则。章节覆盖转换抵抗、最短/最长窗口、2026斥候、建筑转换及其它细节；适合为 Arena 的僧侣控制与交战实验建立问题清单。",
+    "short": "转换抵抗 / 时间窗口 / 反僧侣实验",
+    "language": "英文",
+    "symbol": "MONK",
+    "caution": "机制讲解不等于胜率或某场转换的保证；本次只核验作者描述与章节，训练中的具体概率需自行实测。",
+    "publishedAt": "2026-05-08",
+    "access": "公开",
+    "mode": "mixed",
+    "verification": "2026-11-17：YouTube 原页日期、作者和说明章节已核验；未取得字幕，不从旧教程或视频标题推算当前转换概率。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "Arena",
+      "僧侣",
+      "机制",
+      "微操实验"
+    ],
+    "maps": "Arena / 封闭图 / 僧侣对局",
+    "evidence": "作者简介、章节与原生元数据"
+  },
+  {
+    "id": "tg-tatoh-nomad-20260804",
+    "name": "TaToH：立陶宛游牧捕鱼开局案例",
+    "author": "TaToH",
+    "url": "https://www.youtube.com/watch?v=AF_l3VLB5rY",
+    "type": "职业实战",
+    "desc": "TaToH 本人发布的 Nomad 3v3 实战。作者说明聚焦立陶宛起步带来的渔船经济优势，以及如何把早期优势用于后续对局。作为团队经济比较素材，不包装成通用开局表。",
+    "short": "Nomad 3v3 / 捕鱼经济联动",
+    "language": "西班牙文",
+    "symbol": "T",
+    "caution": "实战案例，非结构化逐村教学。作者未在说明标出精确录像补丁；选择同版本、同出生条件的样本对照。",
+    "publishedAt": "2026-08-04",
+    "access": "公开",
+    "mode": "team",
+    "verification": "2026-11-17：oEmbed确认当前原题“La apertura de Lituanos que domina Nómada”、作者；watch原页确认日期、Nomad/TG3v3及捕鱼主题。未取得字幕正文。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "Nomad",
+      "3v3",
+      "捕鱼",
+      "职业第一视角"
+    ],
+    "maps": "Nomad",
+    "evidence": "作者简介与原生元数据"
+  },
+  {
+    "id": "prep-hera-garrison-ama-2025",
+    "name": "Hera：Garrison 备赛与比赛日习惯问答",
+    "author": "Hera / u/Hera_Aoc",
+    "url": "https://www.reddit.com/r/aoe2/comments/1j8aaoe/hera_x_the_garrison_ama/",
+    "type": "职业访谈",
+    "desc": "本人公开 AMA，已读其备赛、压力和比赛日回答：通过充分准备把注意力放回当前任务；赛前会短暂活动、复习计划，并安排让自己放松的活动。这是选手个人经验，可用于设计自己的赛前流程。",
+    "short": "备赛复核 / 比赛日状态",
+    "language": "英文",
+    "symbol": "PREP",
+    "caution": "2025年历史问答，个人习惯不是统一职业标准，也不是医学或运动处方。原页目前只显示相对日期，未据其重构精确发帖日。",
+    "publishedAt": null,
+    "access": "公开",
+    "mode": "mixed",
+    "verification": "2026-11-17：直接读取 Reddit 原帖与 u/Hera_Aoc 对应回答；搜索原始回复显示2025年3月，原页绝对发帖日期未独立取得，因此publishedAt留空。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "职业备赛",
+      "心态",
+      "比赛日",
+      "训练习惯"
+    ],
+    "maps": "通用 / 赛事地图池",
+    "evidence": "原作者正文"
+  },
+  {
+    "id": "prep-league-handbook-2026",
+    "name": "The League：3v3 地图池、文明 BP 与比赛规则手册",
+    "author": "The League / Daniela, Rbase96, sieste；地图包 Zetnus",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vQlc9RQ8NZfSMXB0xJ6yQIt77s0qn-IKdMeOCovnWrJUHsx91GQJDRmb7TdTrz_K99Hgc9NGInTvUxs/pub",
+    "type": "官方资料",
+    "desc": "赛事主办方原始公开手册。包含不同阶段的地图/文明draft、整轮文明不得重复、3v3阵容、帝王时代sling限制与Nomad开局交互规则；多数地图采用9村起步，BF和Regicide Fortress为例外。适合反向编排训练地图池。",
+    "short": "地图包版本 → BP → 阵容覆盖",
+    "language": "英文",
+    "symbol": "RULES",
+    "caution": "赛事专用规则，不能当作排位默认设置。核验版本为V1.9；公开文档可继续更新，比赛前重读。官网HTTPS本次证书异常，已使用其公开原始文档链接。",
+    "publishedAt": "2026-04-29",
+    "updatedAt": "2026-09-05",
+    "access": "公开",
+    "mode": "team",
+    "verification": "2026-11-17：从主办方官网公开页面取得真实手册链接，成功读取Google Docs发布HTML全文18,598字符；变更记录V1=2026-04-29，V1.9=9月5日。未把本次核验日当发布日期。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "3v3",
+      "文明BP",
+      "地图池",
+      "赛事规则",
+      "备赛"
+    ],
+    "maps": "The League 15图地图池",
+    "evidence": "原作者正文",
+    "mapTags": [
+      "开放图",
+      "封闭图",
+      "游牧",
+      "混合图"
+    ]
+  },
+  {
+    "id": "prep-aoe2cm-author-docs",
+    "name": "AoE2 Captains Mode：原作者 BP 规则与预设文档",
+    "author": "Siege Engineers / aoe2cm2 maintainers",
+    "url": "https://github.com/SiegeEngineers/aoe2cm2#presets",
+    "type": "专业工具",
+    "desc": "开源项目原始README解释pick/ban/snipe、隐藏与同时选择、排他性，以及地图和文明选项池。可用来核对赛事draft预设，而不是把个人文明排名误当赛事规则。",
+    "short": "BP预设 / 隐藏选择 / 地图文明池",
+    "language": "英文；工具有中文",
+    "symbol": "BP",
+    "caution": "工具说明，不自动提供最佳选文明结论；公开README会更新，练习时以赛事指定预设为准。未将代码提交日期当文档发布日期。",
+    "publishedAt": null,
+    "access": "公开",
+    "mode": "mixed",
+    "verification": "2026-11-17：已读原仓库README的Presets、pick/ban/snipe、Hidden、Parallel与Option pools正文；原站链接指向aoe2cm.net。",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "文明BP",
+      "地图池",
+      "训练工具",
+      "规则核验"
+    ],
+    "maps": "按赛事预设",
+    "evidence": "原作者正文"
+  },
+  {
+    "id": "prep-draft-acro17",
+    "name": "Acro17：团队 BP 准备工具 DRAFT 原作者说明",
+    "author": "Acro17 / u/Acro17_AoE",
+    "url": "https://www.reddit.com/r/aoe2/comments/1w7dbiz/draft_your_aoe2cm_companion/",
+    "type": "专业工具",
+    "desc": "原作者公开说明用于群局BP的准备与记录工具：按地图整理个人文明层级，添加角色池，导入aoe2cm链接、将文明分配到地图，并保存结果用于回顾。工具地址为aoe2draft.pro。",
+    "short": "地图 × 文明 × 角色的BP备选",
+    "language": "英文",
+    "symbol": "DRAFT",
+    "caution": "公开介绍可读；工具部分功能需登录。本次核验作者说明全文，未实际操作工具或验证每项在线功能；主观层级不代表客观胜率。比赛中使用前应核对赛事规则。",
+    "publishedAt": null,
+    "access": "公开",
+    "mode": "team",
+    "verification": "2026-11-17：直接读取原作者发布帖及完整功能/使用说明；工具网站可打开但依赖JS，未据目录或评论日期推断精确发帖日。",
+    "toolUrl": "https://aoe2draft.pro/",
+    "verifiedAt": "2026-11-17",
+    "keywords": [
+      "文明BP",
+      "群局阵容",
+      "地图池",
+      "备选方案"
+    ],
+    "maps": "多地图系列赛",
+    "evidence": "原作者正文"
+  },
+  {
+    "id": "pup-winter-2026",
+    "name": "官方 PUP · 2026 冬季测试说明",
+    "author": "Age of Empires Team",
+    "url": "https://forums.ageofempires.com/t/winter-2026-pup-notes/291374",
+    "type": "官方资料",
+    "desc": "官方冬季公开预览说明，包含平衡、稳定性与社交功能测试。用于提前列出需要复测的单位交互；测试内容不代表正式服已生效。",
+    "short": "预览分支 / 待验证变化",
+    "language": "英文",
+    "symbol": "PUP",
+    "caution": "仅适用于 pup_winter 测试分支。官方明确说明 Friends & Groups 不会随下一次更新上线，具体上线时间另行公布。以正式发布说明判断当前版本。",
+    "publishedAt": "2026-11-09",
+    "access": "公开",
+    "verifiedAt": "2026-11-17",
+    "evidence": "官方原帖正文",
+    "stage": "PUP 预览",
+    "keywords": [
+      "版本更新",
+      "测试分支"
+    ],
+    "modes": [
+      "solo",
+      "team"
+    ],
+    "mapTags": [
+      "全地图"
+    ]
   }
 ];
 
@@ -1100,5 +1958,231 @@ const LESSONS = [
       "f1re-mapplans-20261020"
     ],
     "addedAt": "2026-11-16"
+  },
+  {
+    "id": "tc-investment-gate",
+    "mode": "solo",
+    "tag": "经济决策",
+    "icon": "coins",
+    "level": "ADVANCED",
+    "title": "加第二、第三 TC 前，先通过投资检验",
+    "desc": "把扩张经济与现有军力能否兑现收益放在同一张决策表中。",
+    "map": "开放图 / Arabia",
+    "metricShort": "扩张后的防守与持续生产",
+    "condition": "城堡期准备加 TC，尤其是已有军力主动权、刚遭受损失，或考虑一 TC 科技进攻时。",
+    "steps": [
+      "先从对手地图判断现有军队还能否拿到黄金、打到弱点或迫使停工；若要继续投资军队，明确收益目标与停止条件。",
+      "再从自己地图判断：资源是否暴露、敌军位置是否已确认、更多农民出现前能否守住更大的军队。",
+      "分别写出加 TC 与继续一 TC 两种方案，列出接下来两分钟要支付的村民、兵、科技与建筑；不要只算 TC 的建造成本。",
+      "按文明阶段强弱与当前战损修正方案，给新 TC 设置能否持续造村和保住资源的检查点。"
+    ],
+    "drill": "选三场城堡期录像，在实际加 TC 前暂停。保留当时视野，为两条方案各写目标和风险。约练时从相近存档分别执行一轮，比较两分钟后的可用军力、村民产出与安全资源。",
+    "metric": "新增 TC 后的累计空闲秒数、第一轮增援到场时间、遭受骚扰的资源损失、计划攻击目标是否兑现。按相同文明和地图比较个人记录，不设职业资格线。",
+    "pitfall": "把“经济永远越早扩越好”或“一 TC 应该打死对手”当成无条件规则；刚受损就加 TC，却没有恢复持续产村与防守所需的资源流。",
+    "sources": [
+      "f1re-tc-decision",
+      "survivalist-reset-drills"
+    ],
+    "attribution": "本站编辑基于作者公开简介的问题链设计；训练流程与指标为本站综合。",
+    "addedAt": "2026-11-17",
+    "editorial": true
+  },
+  {
+    "id": "attack-army-information",
+    "mode": "solo",
+    "tag": "风险判断",
+    "icon": "map",
+    "level": "ADVANCED",
+    "title": "地图控制之后，还要重新找敌军",
+    "desc": "决定出门时，把敌军最后位置和自己离家风险分别写清楚。",
+    "map": "开放图 / Arabia",
+    "metricShort": "失联敌军与出击收益",
+    "condition": "刚赢下一波交战、取得中场控制，或准备把防守兵带去反压时。",
+    "steps": [
+      "给敌军标记最后一次出现的位置、时间和可能路线；把“没看见”保留为未知，而不是自动判断安全。",
+      "分别判断经济领先和军力领先，检查本轮进攻能攻击哪处资源，以及家中失去这支兵会暴露什么。",
+      "比较主力出门、少量骚扰、暂守等待升级三条行动；为每条写清触发条件和重新侦察的点位。",
+      "防住斥候或剑士后重新做这一步：可以用小规模前压迫使对手花资源防守，但只有自家风险可控才增加投入。"
+    ],
+    "drill": "从五段自己夺回主动权的录像中隐藏全图，各写一次出门方案及必须确认的信息，再揭示敌军真实路线。下一轮约练只跟踪一个最常漏掉的信息点。",
+    "metric": "军队离家到首次有效收益的时间、因失联敌军造成的掉村/停工、逼出的防御投资，以及反压期间自身持续生产是否断档。记录几项原始量，不把它们硬合成虚构评分。",
+    "pitfall": "赢一场局部战斗就假定已掌握所有敌军；也不要因为自家不安全就无限留兵，放任对手自由围墙铺田。",
+    "sources": [
+      "f1re-attack-checklist",
+      "f1re-scout-pressure",
+      "f1re-small-wall-review"
+    ],
+    "attribution": "本站编辑训练设计；决策问题参考作者本人简介，具体行动需结合当前地图与版本。",
+    "addedAt": "2026-11-17",
+    "editorial": true
+  },
+  {
+    "id": "upgrade-purpose-lab",
+    "mode": "solo",
+    "tag": "机制实验",
+    "icon": "shield",
+    "level": "ADVANCED",
+    "title": "一次升级，究竟改变了几次攻击？",
+    "desc": "用明确目标和相同条件，检验攻击、护甲与生命值的实际收益。",
+    "map": "全地图",
+    "metricShort": "攻击次数与存活阈值",
+    "condition": "准备为主力投资铁匠铺、生命值或特殊科技，但不确定升级是否会改变下一场交战时。",
+    "steps": [
+      "先选本轮目标：骚扰村民、正面对兵、保护攻城器或拆建筑，再确定要比较的己方单位与目标单位。",
+      "在当前正式服只改变一项科技，固定双方数量、其他升级、地形和初始距离，记录击杀所需攻击次数、己方存活和交战耗时。",
+      "把静止测试和移动/拉扯测试分开；再做一组相同资源预算的实战选择，观察花钱升级是否挤掉关键兵量。",
+      "研究骆驼弓或 Fire Archer 等特殊单位时，分别核查当前护甲类别、额外伤害、生产成本与对建筑表现，不能从一个目标推导所有目标。"
+    ],
+    "drill": "用自己最常见的三个对位做一页升级卡，每个对位比较未升、攻击、护甲/生命值三种情况。保留版本号与场景存档，再用练习伙伴做一轮移动和多线干扰验证。",
+    "metric": "每个目标的实测攻击次数、关键伤害后的剩余 HP、交战资源损失、升级完成至有效收益的间隔；这些结果仅适用于记录的测试条件。",
+    "pitfall": "只按面板 DPS 或单位标签判断；把2025旧视频的胜负直接套用到2026区域兵种、护甲类或寻路表现。",
+    "sources": [
+      "f1re-blacksmith-choice",
+      "sotl-camel-archer-2025",
+      "sotl-fire-archer-2025",
+      "sotl-september-2026"
+    ],
+    "attribution": "本站编辑设计的控制变量练习；本次未取得原视频测试全文，未宣称复现作者原始数值。",
+    "addedAt": "2026-11-17",
+    "editorial": true
+  },
+  {
+    "id": "saved-scenario-repetitions",
+    "mode": "solo",
+    "tag": "刻意练习",
+    "icon": "refresh",
+    "level": "ADVANCED",
+    "title": "把一个难局面，压缩成十二次有效练习",
+    "desc": "用保存与加载缩短反馈周期，再检验能否迁移到完整对局。",
+    "map": "全地图",
+    "metricShort": "重复稳定性与迁移",
+    "condition": "同类微操、补墙或多任务失误反复发生，但普通天梯里很少有相同局面可比较时。",
+    "steps": [
+      "在当前版本与练习伙伴约定一个可重复的起点，保存局面；写清兵力、升级、资源、位置与本轮唯一目标。",
+      "先保留一次自然操作作为基线，再分别练单项动作、加入宏观任务、加入第二条威胁，每种做四次；只比较同一难度内的变化。",
+      "每次结束只记录一个最早的可修正错误，然后重新加载；使用完整科技树场景时，把操作练习与文明可用性测试分开。",
+      "最后换一张存档或调换双方位置，并回到完整约练检查。若改进只在背熟的局面里出现，就降低提示、增加变化后再试。"
+    ],
+    "drill": "十二次短练：四次单项、四次加生产任务、四次加第二条威胁。可选剑士靠近资源区的小墙、僧侣保护或远程撤退。与伙伴只在约练中使用，不要求天梯对手陪练。",
+    "metric": "同一条件下任务成功次数、首个错误发生时间、同期 TC/军营空闲与掉村资源；另记两场不同局面的迁移结果。小样本用于发现问题，不推算总体胜率。",
+    "pitfall": "加载练熟的是固定 AI 顺序或敌军路线；存档升级后不可用还混用结果；把完整科技树微操成绩当作真实文明对局水平。",
+    "sources": [
+      "survivalist-reset-drills",
+      "survivalist-micro-1900",
+      "f1re-small-wall-review"
+    ],
+    "attribution": "本站编辑基于作者公开说明设计的练习安排；十二次与四次分组是本站建议，非选手给出的职业标准。",
+    "addedAt": "2026-11-17",
+    "editorial": true
+  },
+  {
+    "id": "tg-rf-coverage-20261117",
+    "title": "RF 阵容审计：别让三个人都在解决同一个问题",
+    "mode": "team",
+    "tag": "群局精研",
+    "map": "封闭图 / 黑森林 / Rage Forest",
+    "icon": "shield",
+    "level": "精研 / 1",
+    "desc": "把阵容分成需要完成的工作，再决定谁承担；文明强度只在任务与地形中有意义。",
+    "condition": "固定队选文明或复盘帝王期僵局；队里军队很多，却没有人能安全完成推进、反攻城、保护或资源延续。",
+    "steps": [
+      "先画两侧主通道、可能切口、池塘、后排贸易线；按真实通道宽度估计哪些单位能有效接战。",
+      "为每侧写出推进、反攻城、保护攻城、快速补防四项责任；再单独确定贸易/关键资源防护由谁兼任。",
+      "比较角色缺口与重复投资：出现三家同类输出时，明确留下哪家的规模优势，哪家优先补关键辅助。",
+      "为主力被克制、前线被切开和贸易被袭各写一条接替规则；规则必须包含触发信息和接应位置。"
+    ],
+    "drill": "本站独立训练：固定地图种子和总资源，各打两组相同人数的对抗场景；仅改一位队员的职能。记录瓶颈是否消失，再回到真实训练赛验证。",
+    "metric": "未被任何队员覆盖的战场任务数；关键攻城有效工作时间；同一通道中的拥堵/闲置军队；从请求补位到实际接应的游戏时间",
+    "metricShort": "职能缺口与有效输出",
+    "pitfall": "把RF文明榜当阵容答案；按个人杀敌数奖励三家同质输出，忽略保护者和资源路线。",
+    "sources": [
+      "tg-rf6-sensar-20260812",
+      "tg-hera-bf-guide-20230716"
+    ],
+    "editorial": true,
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "tg-trade-controlled-test-20261117",
+    "title": "贸易实测：控制投入，再比较真实回本",
+    "mode": "team",
+    "tag": "机制实验",
+    "map": "全地图",
+    "icon": "chart",
+    "level": "精研 / 2",
+    "desc": "不用旧视频的排名替代当前版本测试；让成本、产能、路程和风险在同一实验中可比较。",
+    "condition": "队伍要比较两种贸易文明/路线，或决定额外黄金应继续造兵还是扩商队；当前补丁与参考视频不同。",
+    "steps": [
+      "在当前正式版建测试场，固定地图尺寸、市场位置、开始资源、观察区间和是否允许额外市场；一次只改一个变量。",
+      "把市场、商队、升级投入全部列入成本；不同生产速度的文明同时记录“单位完成数量”和“累计实际投入”。",
+      "从同一游戏时点记录累计送达资源，不只看单车载货；另外做一次受压版本，记录停运、损失和恢复成本。",
+      "将净收益曲线与同资源军队投资的机会比较；只对本测试情境下结论负责，不宣布通用最早贸易分钟。"
+    ],
+    "drill": "本站独立训练：同一路线比较等总投入与等车数两种口径，各重复3次；随后只增加一个固定时点的袭扰，比较回本是否仍成立。",
+    "metric": "累计送达黄金减新增市场/商队/升级成本；首批回本时点；实际行驶与停工时长；相同时间的军队资源缺口",
+    "metricShort": "净收益曲线与口径一致性",
+    "pitfall": "把2021旧加成/2025旧速度混进2026实验；按相同车数就声称是相同经济投入，或忽略市场生产速度。",
+    "sources": [
+      "tg-sotl-trade-tests-20210916",
+      "map-sotl-naval-20260303"
+    ],
+    "editorial": true,
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "prep-draft-backups-20261117",
+    "title": "BP 压力测试：每张地图都要有被抢后的第二套组合",
+    "mode": "team",
+    "tag": "职业备赛",
+    "map": "全地图",
+    "icon": "map",
+    "level": "精研 / 3",
+    "desc": "评估整个系列赛的可执行覆盖，而不是每次选当前看起来最强的文明。",
+    "condition": "赛事使用多图、文明不可重复或snipes；固定队有强项文明，但被针对后经常留下一张无法分配的地图。",
+    "steps": [
+      "先抄清赛事当前地图包、起始村数、draft阶段、禁选方式、重复限制、sling与游牧特殊规则；不把排位开局带进9村赛事。",
+      "按“地图—队员—角色”写主组合与备选组合，并标出真正练过的路线；主观强弱与熟练度分两栏记录。",
+      "让陪练在每轮优先抢掉队伍最依赖的文明；每次选择后重新检查剩余地图是否仍有完整三人组合。",
+      "完成draft后，先解释最脆弱地图的前三分钟分工和第一个转案信号，再开始比赛；赛后对照实际是否出现预判缺口。"
+    ],
+    "drill": "本站独立训练：按同一赛事预设做3次限时模拟BP，分别接受正常、针对禁选和意外snipes；每轮必须提交一张完整地图分配表。",
+    "metric": "draft结束后没有已练组合的剩余地图数；被抢后重新分配耗时；备选路线实际执行错误；同一文明在不同地图之间的机会成本",
+    "metricShort": "剩余地图覆盖与备选熟练度",
+    "pitfall": "把网上tier list直接拖入draft；练了第一选项却没练被ban后的计划；用工具排序代替队伍沟通。",
+    "sources": [
+      "prep-league-handbook-2026",
+      "prep-aoe2cm-author-docs",
+      "prep-draft-acro17",
+      "prep-hera-garrison-ama-2025"
+    ],
+    "editorial": true,
+    "addedAt": "2026-11-17"
+  },
+  {
+    "id": "map-arena-conversion-risk-20261117",
+    "title": "Arena 僧侣训练：用损失分布评价操作，不盯一次神转",
+    "mode": "solo",
+    "alsoTeam": true,
+    "tag": "地图精研",
+    "map": "Arena / 封闭图",
+    "icon": "target",
+    "level": "精研 / 4",
+    "desc": "把目标选择、走位、保护与随机结果分开记录，避免从一场幸运团战总结错误习惯。",
+    "condition": "城堡时代僧侣与轻骑/重骑对抗；玩家经常以某次秒转或长时间不转换来判断整套计划好坏。",
+    "steps": [
+      "先按当前版本核查转换抵抗、相关科技和目标类型；将参考资料的旧规则列为不可直接采用项。",
+      "在固定单位数、升级与距离下，分别练“集中转换关键目标”和“分配多个目标”，保持保护兵和退路一致。",
+      "逐次记录首次下令时刻、目标切换、僧侣被迫移动和死亡；把随机转换时长与玩家可控的操作损失分开。",
+      "回到真实录像时还原玩家视野：比较继续施法、后撤和交给保护兵三个选择；以队伍主力存活与资源交换评价决定。"
+    ],
+    "drill": "本站独立训练：同一场景做20次小样本练习，仅比较两种操作方式的分布；结果差异不足时继续积累，不能以一次好运宣布最优。",
+    "metric": "关键目标转换成功数的分布；每次交战僧侣损失与存活数；无效切换目标/被迫移动次数；转换后的军队是否被安全接回",
+    "metricShort": "可控损失与结果分布",
+    "pitfall": "把一段视频内的极端转换当概率保证；只看转到多少资源，忽略僧侣全损和后续阵地。",
+    "sources": [
+      "map-sotl-conversions-20260508"
+    ],
+    "editorial": true,
+    "addedAt": "2026-11-17"
   }
 ];

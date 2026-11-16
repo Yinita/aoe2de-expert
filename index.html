@@ -7,10 +7,13 @@
   <meta name="description" content="面向高水平玩家的帝国时代 II 决定版进阶训练站。职业选手一手资料、单挑决策、群局协同、录像复盘与可执行训练计划。">
   <title>帝国研习社 · AoE2 DE 职业进阶</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="data.js" defer></script>
-  <script src="app.js" defer></script>
-  <script src="cloud-sync.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261117">
+  <link rel="stylesheet" href="refinements.css?v=20261117">
+  <script src="data.js?v=20261117" defer></script>
+  <script src="catalog.js?v=20261117" defer></script>
+  <script src="library.js?v=20261117" defer></script>
+  <script src="app.js?v=20261117" defer></script>
+  <script src="cloud-sync.js?v=20261117" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -23,20 +26,23 @@
       <a href="#team" data-page="team"><span data-icon="users"></span>群局战术室<span class="nav-pill">TG</span></a>
       <a href="#review" data-page="review"><span data-icon="play"></span>录像复盘台</a>
       <a href="#library" data-page="library"><span data-icon="book"></span>专家资料库</a>
+      <a href="#collections" data-page="collections"><span data-icon="map"></span>专题研习路线</a>
       <a href="#plan" data-page="plan"><span data-icon="target"></span>我的训练计划</a>
     </nav>
     <div class="side-note"><span class="tiny-star">✦</span><strong>每一局，都有下一步。</strong><p>把经验变成判断，<br>把判断练成习惯。</p><a href="#plan">开启本周训练 <span aria-hidden="true">↗</span></a></div>
     <div class="sidebar-bottom"><span class="online-dot"></span> 为认真变强的玩家而建<small>独立社区项目 · 非官方</small></div>
   </aside>
+  <button id="nav-backdrop" aria-label="关闭导航" hidden></button>
   <div class="workspace">
     <header class="topbar">
       <div class="breadcrumb"><button class="icon-button menu-toggle" id="menu-toggle" aria-label="展开导航" aria-expanded="false" data-icon="menu"></button><span>研习社</span><span class="slash">/</span><strong id="page-label">训练总览</strong></div>
       <div class="top-actions"><button class="search-trigger" id="search-trigger"><span data-icon="search"></span><span>搜索战术、选手、工具</span><kbd>/</kbd></button><button class="cloud-status-button" id="cloud-status-button" aria-label="Google Drive 同步设置"><span data-icon="refresh"></span><span id="cloud-status-text">本机档案</span></button><button class="icon-button saved-trigger" id="saved-trigger" aria-label="查看已收藏资料"><span data-icon="bookmark"></span><i id="saved-count">0</i></button><button class="profile-trigger" id="profile-trigger" aria-label="登录或切换用户"><span class="avatar" id="user-avatar">研</span><span class="profile-trigger-copy"><strong id="current-user-name">我的训练档案</strong><small>免密码切换 ▾</small></span></button></div>
     </header>
     <main id="main" tabindex="-1"></main>
-    <footer class="site-footer"><span>帝国研习社 <span class="footer-cross">✦</span> 学会像高手一样思考。</span><a href="https://github.com/Yinita/aoe2de-expert" target="_blank" rel="noopener noreferrer">开源仓库 ↗</a><span>资料核验 · 2026.11.16</span></footer>
+    <footer class="site-footer"><span>帝国研习社 <span class="footer-cross">✦</span> 学会像高手一样思考。</span><a href="https://github.com/Yinita/aoe2de-expert" target="_blank" rel="noopener noreferrer">开源仓库 ↗</a><span>本次资料整理 · 2026.11.17</span></footer>
   </div>
   <dialog id="lesson-dialog" class="lesson-dialog"><div id="lesson-content"></div></dialog>
+  <dialog id="collection-dialog" class="lesson-dialog"><div id="collection-content"></div></dialog>
   <dialog id="search-dialog" class="search-dialog"><form method="dialog"><button class="icon-button dialog-close" aria-label="关闭搜索">×</button></form><label for="global-search"><span data-icon="search"></span> 在研习社里寻找</label><input id="global-search" type="search" placeholder="试试：兵力窗口、Hera、CaptureAge…" autocomplete="off"><div id="search-results" class="search-results"></div></dialog>
   <dialog id="profile-dialog" class="profile-dialog"><div id="profile-content"></div></dialog>
   <dialog id="sync-dialog" class="profile-dialog"></dialog>
