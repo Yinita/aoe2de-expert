@@ -3,7 +3,7 @@
   'use strict';
   const CONFIG_KEY = 'aoe2-drive-sync-config-v1';
   const META_KEY = 'aoe2-drive-sync-meta-v1';
-  const validId = id => typeof id === 'string' && /^[A-Za-z0-9_-]{1,128}$/.test(id) && !['__proto__', 'constructor', 'prototype'].includes(id);
+  const validId = id => typeof id === 'string' && /^[A-Za-z0-9_-]{1,100}$/.test(id) && !['__proto__', 'constructor', 'prototype'].includes(id);
   const readJSON = key => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } };
   const clone = value => JSON.parse(JSON.stringify(value));
   const uuid = () => typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : 'profile-' + Date.now() + '-' + Math.random().toString(36).slice(2, 12);
