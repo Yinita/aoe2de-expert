@@ -1,4 +1,4 @@
-/* Sources verified 2026-11-16. Training designs are editorial synthesis; see original sources. */
+/* Sources verified 2026-11-16. Publication dates are distinct from verification dates. Training designs are editorial synthesis; see original sources. */
 const SOURCES = [
   {
     "id": "patch",
@@ -10,7 +10,9 @@ const SOURCES = [
     "short": "版本核验",
     "language": "英文 / 游戏术语",
     "symbol": "DE",
-    "caution": ""
+    "caution": "",
+    "publishedAt": "2026-10-27",
+    "access": "公开"
   },
   {
     "id": "tree",
@@ -22,7 +24,9 @@ const SOURCES = [
     "short": "对局准备 / 科技与护甲核查",
     "language": "英文 / 游戏术语",
     "symbol": "TT",
-    "caution": ""
+    "caution": "",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "hera",
@@ -34,7 +38,9 @@ const SOURCES = [
     "short": "信息 → 判断 → 下一步计划",
     "language": "英文 / 游戏术语",
     "symbol": "H",
-    "caution": "历史教学 · 数值需复核"
+    "caution": "历史教学 · 数值需复核",
+    "publishedAt": "2024-02-23",
+    "access": "公开"
   },
   {
     "id": "viper",
@@ -46,7 +52,9 @@ const SOURCES = [
     "short": "细节核查 / 操作习惯",
     "language": "英文 / 游戏术语",
     "symbol": "V",
-    "caution": "历史教学 · 数值需复核"
+    "caution": "历史教学 · 数值需复核",
+    "publishedAt": "2021-07-22",
+    "access": "公开"
   },
   {
     "id": "survivalist",
@@ -58,7 +66,9 @@ const SOURCES = [
     "short": "生产建筑 → 资源流 → 经济配比",
     "language": "英文 / 游戏术语",
     "symbol": "S",
-    "caution": ""
+    "caution": "",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "capture",
@@ -70,7 +80,9 @@ const SOURCES = [
     "short": "逐帧复盘 / 比较关键时点",
     "language": "英文 / 游戏术语",
     "symbol": "CA",
-    "caution": "含付费功能"
+    "caution": "含付费功能",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "insights",
@@ -82,7 +94,9 @@ const SOURCES = [
     "short": "选手样本 / 对手准备",
     "language": "英文 / 游戏术语",
     "symbol": "AI",
-    "caution": ""
+    "caution": "",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "insights-pro",
@@ -94,7 +108,9 @@ const SOURCES = [
     "short": "定位损失时段 / 验证训练结果",
     "language": "英文 / 游戏术语",
     "symbol": "AI+",
-    "caution": "含付费功能"
+    "caution": "含付费功能",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "fundamentals",
@@ -106,7 +122,9 @@ const SOURCES = [
     "short": "基础动作审计",
     "language": "英文 / 游戏术语",
     "symbol": "S",
-    "caution": "历史教学 · 数值需复核"
+    "caution": "历史教学 · 数值需复核",
+    "publishedAt": "2020-08-18",
+    "access": "公开"
   },
   {
     "id": "hera-2v2",
@@ -118,7 +136,9 @@ const SOURCES = [
     "short": "职业选手原始教学",
     "language": "英文 / 游戏术语",
     "symbol": "H",
-    "caution": "历史教学 · 数值需复核"
+    "caution": "历史教学 · 数值需复核",
+    "publishedAt": "2022-06",
+    "access": "公开"
   },
   {
     "id": "viper-nations",
@@ -130,7 +150,9 @@ const SOURCES = [
     "short": "职业选手第一视角实战",
     "language": "英文 / 游戏术语",
     "symbol": "V",
-    "caution": "历史教学 · 数值需复核"
+    "caution": "历史教学 · 数值需复核",
+    "publishedAt": "2023-02-03",
+    "access": "公开"
   },
   {
     "id": "sotl-trade",
@@ -142,7 +164,9 @@ const SOURCES = [
     "short": "作者原始机制分析",
     "language": "英文 / 游戏术语",
     "symbol": "SotL",
-    "caution": "历史教学 · 数值需复核"
+    "caution": "历史教学 · 数值需复核",
+    "publishedAt": "2025-09-21",
+    "access": "公开"
   },
   {
     "id": "captureage-pro",
@@ -154,7 +178,9 @@ const SOURCES = [
     "short": "工具官方文档",
     "language": "英文 / 游戏术语",
     "symbol": "CA+",
-    "caution": "含付费功能"
+    "caution": "含付费功能",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "captureage-timeline",
@@ -166,7 +192,9 @@ const SOURCES = [
     "short": "工具官方文档",
     "language": "英文 / 游戏术语",
     "symbol": "CA",
-    "caution": "含付费功能"
+    "caution": "含付费功能",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "captureage-idle",
@@ -178,7 +206,9 @@ const SOURCES = [
     "short": "工具官方文档",
     "language": "英文 / 游戏术语",
     "symbol": "CA",
-    "caution": ""
+    "caution": "",
+    "publishedAt": null,
+    "access": "公开"
   },
   {
     "id": "worldcup-official",
@@ -190,7 +220,249 @@ const SOURCES = [
     "short": "游戏官方赛事入口",
     "language": "英文 / 游戏术语",
     "symbol": "WC",
-    "caution": "历史赛事"
+    "caution": "历史赛事",
+    "publishedAt": "2020-11",
+    "access": "公开"
+  },
+  {
+    "id": "new-hera-opening",
+    "name": "Hera：如何选择开局策略（2026年10月）",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.patreon.com/heraaoe2/posts/how-to-always-173324444",
+    "type": "职业教学",
+    "desc": "2026 年 10 月开局选择专题。适合已有熟练开局的玩家，带着文明对位、地图暴露度和第一波目标三个问题阅读。",
+    "short": "Arabia · 开放陆图",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "仅核验公开介绍；会员正文未读取。发布早于正式补丁188329两天；战术数值与新文明开局需再核对后续正式补丁。",
+    "publishedAt": "2026-10-25",
+    "access": "会员",
+    "maps": "Arabia / 开放陆图"
+  },
+  {
+    "id": "new-hera-varangians",
+    "name": "Hera：瓦良格血统斥候快攻教程",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.patreon.com/heraaoe2/posts/varangians-scout-173110429",
+    "type": "职业教学",
+    "desc": "新文明血统斥候专题入口。学习时检验血统投资与第一波兵量、持续施压能力的关系；完整人口流程在原作者会员内容中。",
+    "short": "开放陆图 · Arabia",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "仅核验公开介绍；会员正文未读取。2026-10-22版本；是否仍适配188329须核查，不能直接套用到其他文明。",
+    "publishedAt": "2026-10-22",
+    "access": "会员",
+    "maps": "开放陆图 / Arabia"
+  },
+  {
+    "id": "new-hera-saxons",
+    "name": "Hera：撒克逊直城 Hearth Troop 教程",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.patreon.com/heraaoe2/posts/saxons-fast-173110279",
+    "type": "职业教学",
+    "desc": "撒克逊直城 Hearth Troop 专题入口。用防守成本、主力成型速度与敌方前置压力评估这条路线。",
+    "short": "安全陆图 · 开放陆图需额外防守评估",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "仅核验公开介绍；会员正文未读取。新文明专属；对局地图未由公开页面明确，本站场景属于练习建议。发布日期早于188329。",
+    "publishedAt": "2026-10-22",
+    "access": "会员",
+    "maps": "安全陆图 / 开放陆图需额外防守评估"
+  },
+  {
+    "id": "new-hera-danes",
+    "name": "Hera：丹麦剑士快攻教程",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.patreon.com/heraaoe2/posts/danes-man-at-173110128",
+    "type": "职业教学",
+    "desc": "丹麦剑士快攻专题入口。对照自己的第一波到达、可攻击资源与后续转兵准备，形成版本适配的开局笔记。",
+    "short": "开放陆图 · Arabia",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "仅核验公开介绍；会员正文未读取。丹麦专属主题，具体地图公开页未明确；发表于188329前。",
+    "publishedAt": "2026-10-22",
+    "access": "会员",
+    "maps": "开放陆图 / Arabia"
+  },
+  {
+    "id": "new-hera-transition",
+    "name": "Hera：像职业选手一样完成兵种转型",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.patreon.com/heraaoe2/posts/how-to-make-unit-159690467",
+    "type": "职业教学",
+    "desc": "职业级兵种转型专题。带着旧军何时停产、新体系总成本、过渡期怎样守住地图三个问题阅读。",
+    "short": "陆图通用",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "仅核验公开介绍；会员正文未读取。2026年5月发布，早于9月DLC；新区域兵种和旧兵种替换必须按当前科技树重新核算。",
+    "publishedAt": "2026-05-31",
+    "access": "会员",
+    "maps": "陆图通用"
+  },
+  {
+    "id": "new-hera-attack",
+    "name": "Hera：职业级进攻专题",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.patreon.com/heraaoe2/posts/how-to-attack-150203571",
+    "type": "职业教学",
+    "desc": "职业级进攻专题。可用于研究进攻目标、时机与后续计划。本站另提供独立设计的进攻循环练习。",
+    "short": "陆图通用",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "仅核验公开介绍；会员正文未读取。发布早于2026年后续DLC与平衡改动；具体单位组合与攻城交互需重验。",
+    "publishedAt": "2026-02-08",
+    "access": "会员",
+    "maps": "陆图通用"
+  },
+  {
+    "id": "new-hera-gap",
+    "name": "Hera：2200与2900分玩家的差距",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.youtube.com/watch?v=iSFDKve-xD0",
+    "type": "职业教学",
+    "desc": "Hera本人频道的高分段教学案例。题目直接围绕高水平玩家与顶尖玩家的差距，适合替代入门教程作为观察样本。观看时逐点记录双方信息、可选行动和实际选择，再用自己的同类型录像核验；不把视频标题中的分数当作站点承诺。",
+    "short": "以原视频实际地图为准",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "2025年版本；用于研究决策与执行，不能直接套用2026年的文明数值或兵种树。",
+    "publishedAt": "2025-03-13",
+    "access": "公开",
+    "maps": "以原视频实际地图为准"
+  },
+  {
+    "id": "new-patch-185872",
+    "name": "2026年9月正式大补丁：区域兵种与旧文明重做",
+    "author": "World’s Edge / Age DE Team",
+    "url": "https://www.ageofempires.com/news/age-of-empires-ii-definitive-edition-update-185872/",
+    "type": "官方资料",
+    "desc": "加入Mounted Crossbowmen与Varangian Guards等区域兵种，并为部分欧洲文明调整旧骑射路线；法兰克掷斧兵基础射程提高、Bearded Axe被替换，葡萄牙失去Redemption；还调整攻城与海军，并加入更开放的Arabian Desert地图。它能直接解释为什么2025攻略的兵种树与2026正式服可能不同。",
+    "short": "Arabia · Arabian Desert",
+    "language": "英文",
+    "symbol": "DE",
+    "caution": "这是9月基线，不是当前最新补丁；须与10月188329及之后正式补丁叠加阅读。",
+    "publishedAt": "2026-09-22",
+    "access": "公开",
+    "maps": "Arabia / Arabian Desert / 陆图"
+  },
+  {
+    "id": "f1re-nomad-20261020",
+    "name": "F1Re：游牧落 TC 选址与捕鱼速城",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=3ebgOpe4loA",
+    "type": "职业教学",
+    "desc": "作者说明包含用小地图和闲置村民热键找 TC 位置、船坞村去向、确认可捕鱼空间，以及 Saracens 捕鱼速城和 Persians 起步演示。00:00 选址，09:00 捕鱼速城，16:10 文明，18:18 Persians。",
+    "short": "Nomad",
+    "language": "英文",
+    "symbol": "F1",
+    "caution": "上传日期已核实；录像录制日期、补丁号未标明。具体村民分配、船坞与渔船数值需按当前版本重测，不能把 generic Fast Castle 当作所有游牧局的默认最优解。",
+    "publishedAt": "2026-10-20",
+    "access": "公开",
+    "maps": "Nomad"
+  },
+  {
+    "id": "f1re-mapplans-20261020",
+    "name": "F1Re：Bog Islands、Baltic、Amazon Tunnel 与 Arena 地图计划",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=Z9jA1mWZqso",
+    "type": "职业教学",
+    "desc": "作者说明展示 Mongols 火船开局、Baltic 对应计划、Amazon Tunnel 中央圣物控制，以及 Arena 速城轻骑与早市场。15:41 转 Amazon Tunnel，19:44 转 Arena。",
+    "short": "Bog Islands · Baltic",
+    "language": "英文",
+    "symbol": "F1",
+    "caution": "2026 上传不代表 2026 录制。发现目录曾注明 2023 录制，原页未标明确录制年；因此作为地图计划档案使用。尤其海军开局先对照 2026 海战重做，不能照抄旧船型克制与数量。",
+    "publishedAt": "2026-10-20",
+    "access": "公开",
+    "maps": "Bog Islands / Baltic / Amazon Tunnel"
+  },
+  {
+    "id": "f1re-african-20261020",
+    "name": "F1Re：African Clearing 落 TC、资源分配与避免自困",
+    "author": "F1ReAoE",
+    "url": "https://www.youtube.com/watch?v=ZrwpMBzpHr4",
+    "type": "职业教学",
+    "desc": "作者说明包含小地图 TC 定位、初始村民分两座磨坊、伐木场时机、远猪与水池处理，以及速城与围墙造成的出兵限制。后半有 Britons vs Saracens、Magyars vs Incas 两个排位复盘。",
+    "short": "African Clearing",
+    "language": "葡萄牙文",
+    "symbol": "F1",
+    "caution": "上传日期已核实；录像补丁号未标明。作者将速城称为该图标准计划，这是其教学观点，仍需按敌人距离、进攻信号和当前资源机制判断，不改写成绝对规则。",
+    "publishedAt": "2026-10-20",
+    "access": "公开",
+    "maps": "African Clearing"
+  },
+  {
+    "id": "daut-rf-20261020",
+    "name": "DauT：4v4 Rage Forest 偷渡失败后的兵营转化",
+    "author": "Daut Age of Empires 2",
+    "url": "https://www.youtube.com/watch?v=yRlKda_RGso",
+    "type": "职业实战",
+    "desc": "标题明确给出偷渡未成功、但兵营仍带来后续影响的 4v4 RF 案例。适合练习从早期计划失败中寻找留下的生产资产与二次施压机会。",
+    "short": "Rage Forest · Black Forest",
+    "language": "英文",
+    "symbol": "D",
+    "caution": "学习任务是本站建议；原说明仅写 Twitch 实况，未给精确补丁、文明或详细战术章程，不能声称某个固定兵量/后续必胜。",
+    "publishedAt": "2026-10-20",
+    "access": "公开",
+    "maps": "Rage Forest / Black Forest"
+  },
+  {
+    "id": "hera-bf-20261110",
+    "name": "Hera：黑森林纯攻城配合实战",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.youtube.com/watch?v=C6dVwsRFKcA",
+    "type": "职业实战",
+    "desc": "作者原说明确认黑森林队友纯攻城打法，并链接 Liereyy 的另一侧故事。适合对照主力保护、攻城投产与狭口突破条件，属于实战素材而非结构化课程。",
+    "short": "Black Forest",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "这是带娱乐叙事的实况剪辑，标题中的 1600 Elo 不能当作训练样本的真实技术级别或职业阈值；视频未标补丁号。",
+    "publishedAt": "2026-11-10",
+    "access": "公开",
+    "maps": "Black Forest"
+  },
+  {
+    "id": "hera-arena-20260325",
+    "name": "Hera：Arena 文明劣势对局的应对案例",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.youtube.com/watch?v=KH7zjxq353Y",
+    "type": "职业实战",
+    "desc": "Arena 文明对局案例。建议带着资源投入、圣物争夺、升帝窗口与兵种转换四个问题观看；这些问题为本站整理。",
+    "short": "Arena",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "BEST/WORST 是视频标题判断，不是跨补丁文明排名或统计结论；未独立核实视频内使用文明与完整战术，本站不据标题外推。",
+    "publishedAt": "2026-03-25",
+    "access": "公开",
+    "maps": "Arena"
+  },
+  {
+    "id": "hera-wu-hybrid-20250515",
+    "name": "Hera：Wu 混合图实战（海战重做前案例）",
+    "author": "Hera - Age of Empires 2",
+    "url": "https://www.youtube.com/watch?v=o5JSVw0HIz0",
+    "type": "职业实战",
+    "desc": "2025 年 Wu 混合图案例，可用于研究水陆投资如何互相影响、何时把水面优势换成陆地节奏。",
+    "short": "Hybrid",
+    "language": "英文",
+    "symbol": "H",
+    "caution": "明确早于 2026-02-17 海战重做；船型克制、渔船收益和海军升级不能当作当前规则，需与官方 169123 及后续补丁对照。",
+    "publishedAt": "2025-05-15",
+    "access": "公开",
+    "maps": "Hybrid"
+  },
+  {
+    "id": "official-naval-169123",
+    "name": "官方 169123：2026 海战、捕鱼经济与船型重做",
+    "author": "Age DE Team",
+    "url": "https://www.ageofempires.com/news/age-of-empires-ii-definitive-edition-update-169123/",
+    "type": "官方资料",
+    "desc": "官方确认 Naval Overhaul：新增 Hulk 系对抗火船，改动渔船经济、船型属性与海军科技；是检查旧水图教程是否仍适用的必要版本锚点。",
+    "short": "Hybrid · Water",
+    "language": "英文",
+    "symbol": "DE",
+    "caution": "169123 是机制变更基准，不是截至 2026-11 的最新补丁。当前训练仍须检查后续正式更新；不要将 PUP 预览改动视为已上线。",
+    "publishedAt": "2026-02-17",
+    "access": "公开",
+    "maps": "Hybrid / Water / Nomad"
   }
 ];
 
@@ -610,5 +882,223 @@ const LESSONS = [
       "viper-nations",
       "worldcup-official"
     ]
+  },
+  {
+    "id": "new-solo-openings",
+    "title": "新文明开局：为每条路线写退出条件",
+    "mode": "solo",
+    "tag": "2026 专题",
+    "map": "开放图",
+    "icon": "flag",
+    "level": "11",
+    "desc": "同一文明准备两种可切换方案，比背熟一条人口流程更可检验。",
+    "condition": "新文明对位准备，或对手的封建兵种使你原开局失去攻击目标时。",
+    "steps": [
+      "以当前正式服科技树建立一页对位表：第一波兵、必需科技、防守成本与城堡后计划。",
+      "对血统斥候、剑士压制、直城等路线分别写继续与退出的信号；把敌方兵量、墙和金木位置纳入条件。",
+      "不要未经正文验证就复制付费教程的流程；用可读数据自行搭建测试，再与本人能访问的原教学核对。",
+      "同地图固定对手做两种路线测试，分别观察第一次施压与第二轮兵到达，而不是只比较上时代时间。"
+    ],
+    "drill": "选瓦良格、撒克逊或丹麦其中一个文明，做6局约练：每条路线3局。赛前写退出条件，赛后标记触发后是否及时切换。",
+    "metric": "开局退出条件执行率、第一波到达至收益兑现的时间、转型期间的村民与资源损失；不设统一职业及格线。",
+    "metricShort": "开局退出条件执行率",
+    "pitfall": "把新DLC攻略一律视为当前最优；把单局成功或教练标题当作胜率证明。",
+    "sources": [
+      "new-hera-opening",
+      "new-hera-varangians",
+      "new-hera-saxons",
+      "new-hera-danes"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "new-solo-transition",
+    "title": "转兵预算：给过渡期安排一支能守住的军队",
+    "mode": "solo",
+    "tag": "2026 专题",
+    "map": "全地图",
+    "icon": "coins",
+    "level": "12",
+    "desc": "转型前就计算新军成型之前的风险窗口。",
+    "condition": "对手反制已成形，或旧主力的地图收益不足以继续投资时。",
+    "steps": [
+      "列出旧军维持成本、新建筑、新科技、新军第一批兵量和必需防守的总支出。",
+      "明确哪一类旧兵停止补充、哪一类保留拖时间；避免两套体系同时全速生产却没有一套能打。",
+      "把新军成型前的时间分成至少两个检查点：资源是否足够、对手主力在哪、是否仍有安全退路。",
+      "成型后先争一个资源点或赢一场可控交战，再决定继续扩大新军比例。"
+    ],
+    "drill": "复盘3次失败转型。在决定转兵时暂停，做一张成本与时间表，比较实际断兵点和理想衔接点。",
+    "metric": "旧军停产至新军可用的间隔、期间掉村资源、库存结构、第一场交战资源交换；指标用于本人前后比较。",
+    "metricShort": "过渡期断兵与资源损失",
+    "pitfall": "只问最终兵种能否克制，却忽略新军到场前已失去黄金、空间或主力。",
+    "sources": [
+      "new-hera-transition",
+      "new-patch-185872"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "new-solo-attacking",
+    "title": "进攻循环：压资源、逼反应、再换目标",
+    "mode": "solo",
+    "tag": "2026 专题",
+    "map": "全地图",
+    "icon": "target",
+    "level": "13",
+    "desc": "每轮推进前写清想迫使对手付出的成本。",
+    "condition": "已有兵力主动权，但正面防御使推进收益下降时。",
+    "steps": [
+      "选择一个实际能触及的收益：压住黄金、迫使停工、拆关键建筑或切断增援。",
+      "写下对手最可能的两个应对，并给每个应对安排后续；侦察确认之前不把假设当事实。",
+      "保留前线视野与撤退点，让攻城器、增援线和家中经济同时得到保护。",
+      "本轮目标完成或失去实现条件后，重新核对双方兵力、科技与资源，决定换目标、撤退或升级。"
+    ],
+    "drill": "从一次领先未兑现的对局中剪出3轮进攻，逐轮写目标、对手应对、下一步和实际经济收益。",
+    "metric": "每轮进攻消耗的己方军队资源、造成的停工/资源封锁、增援被截次数，以及同期家中损失。",
+    "metricShort": "每轮收益与同期损失",
+    "pitfall": "攻击目标已被保护仍持续送兵；把迫使对手造反制当成零收益，或把高击杀当成必然赢局。",
+    "sources": [
+      "new-hera-attack",
+      "new-hera-gap"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "new-solo-patchlab",
+    "title": "版本实验室：把补丁变成对位测试",
+    "mode": "solo",
+    "tag": "2026 专题",
+    "map": "全地图",
+    "icon": "refresh",
+    "level": "14",
+    "desc": "每次重大更新只优先验证自己常用对位中最可能改变决策的交互。",
+    "condition": "旧攻略的兵种路线、独特科技或反制方案与当前正式服不一致时。",
+    "steps": [
+      "先在官方补丁和当前科技树中确认变化，记录补丁号；测试服与正式服分别保存。",
+      "从自己的文明池挑3个受影响交互，例如旧骑射路线改为Mounted Crossbowmen、法兰克掷斧兵射程、葡萄牙僧侣对攻城器的能力。",
+      "在相同资源预算、升级、地形与兵量条件下做对照；分别测试正面交战、追击和撤退。",
+      "将结果写成可用于实战的决策规则，并列明不适用条件；完成后用约练复核经济成本与成型时间。"
+    ],
+    "drill": "每个新补丁做3张实验记录：变量、对照条件、观察结果、下次实战动作。先覆盖常玩文明，再扩展。",
+    "metric": "受影响对位覆盖率、旧笔记更正数、实验规则在约练中是否可执行；不从少量实验推导总体胜率。",
+    "metricShort": "版本差异与实验对照",
+    "pitfall": "只看纸面DPS就宣布新meta；复用不同补丁、不同升级或不同资源规模的结果。",
+    "sources": [
+      "new-patch-185872",
+      "new-hera-gap",
+      "patch",
+      "tree"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "map-arena-space",
+    "title": "Arena：圣物、出门权与升帝窗口一起定价",
+    "mode": "solo",
+    "alsoTeam": true,
+    "tag": "地图专项",
+    "map": "封闭图 · Arena / Amazon Tunnel",
+    "icon": "castle",
+    "level": "MAP / 1",
+    "desc": "圣物数量只是结果；为了得到它付出的轻骑、僧侣、TC 延迟和位置风险，决定这笔投资是否成立。",
+    "condition": "石墙或狭口使早期经济较安全；进入城堡时代前，团队必须决定争地图还是集中经济。Amazon Tunnel 的中央通道与圣物分布不能直接等同 Arena。",
+    "steps": [
+      "升城期间先标出己方、争议与敌方可达圣物，记录敌侦察兵和可疑前置村。",
+      "明确争夺预算与可接受的 TC 延迟；不因对面出轻骑就无上限跟投。",
+      "把僧侣路线、护送兵、退路和门控一起安排，避免一次失误既丢僧侣又丢出门权。",
+      "遇围城、塔或城堡施压，优先确认是否还能安全采金石和建立反制；必要时让出远端圣物换安全升帝。"
+    ],
+    "drill": "同种文明对局重复争圣物与少争圣物两条路线；在相同游戏时间比较经济、可用军队与外出空间，不只看最终圣物数。",
+    "metric": "首次可安全出门的时间与持续长度；每座新增圣物附带的兵力损失和 TC 延迟；升帝点击时资源、生产能力与已知敌方威胁；争夺预算是否因为临场情绪失控",
+    "metricShort": "圣物预算与出门权",
+    "pitfall": "照搬开放图“必须不断出兵”；或只评价圣物几比几，忽略更早升帝和关键资源封锁的机会成本。",
+    "sources": [
+      "f1re-mapplans-20261020",
+      "hera-arena-20260325"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "map-rf-contingency",
+    "title": "黑森林 / RF：偷渡失败后的二次计划",
+    "mode": "team",
+    "alsoTeam": false,
+    "tag": "地图专项",
+    "map": "封闭图 · 黑森林 / RF",
+    "icon": "tree",
+    "level": "MAP / 2",
+    "desc": "早期计划被发现后，重新评估前置资产、狭口宽度与团队投产方向，而不是继续投入沉没成本。",
+    "condition": "前置村或偷渡被发现；关键通道被墙；或者队友已有围城潜力但缺保护与视野。",
+    "steps": [
+      "开局先共享所有已知通道、墙线、池塘和敌方前置；按真实地形分配防守和经济角色。",
+      "偷渡失败立即盘点剩余村民、兵营与逃生路径；判断还能牵制、转产，还是应停损。",
+      "突破前同时核对攻城、保护兵、维修村、视野与后方续兵；狭口限制下，更多近战单位未必更有价值。",
+      "用小股威胁测试敌方调动，再决定正面推进、切口或改攻另一侧；每次切换明确谁负责防止反穿。"
+    ],
+    "drill": "从 DauT 的 RF 案例挑“计划失败”的暂停点，先写三条后续方案；再对照 Hera 黑森林纯攻城素材，记录什么保护条件让昂贵攻城单位能持续工作。",
+    "metric": "发现偷渡失败到停止无效增援的间隔；前置资产造成的实际牵制时间；攻城单位有效输出时间与被孤立损失；突破后支援到达时间和己方通道安全性",
+    "metricShort": "前置止损与攻城保护",
+    "pitfall": "把 RF 的角色固定为开放图 flank 弓、pocket 骑；或因为已投前置村就继续追加资源，忽略原侧即将失守。",
+    "sources": [
+      "daut-rf-20261020",
+      "hera-bf-20261110"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "map-nomad-location",
+    "title": "Nomad / African Clearing：落 TC 后仍要更新地图判断",
+    "mode": "solo",
+    "alsoTeam": true,
+    "tag": "地图专项",
+    "map": "游牧 · Nomad / African Clearing",
+    "icon": "map",
+    "level": "MAP / 3",
+    "desc": "选址需要同时考虑可持续资源、队友距离与对手威胁；落地快只是其中一项。",
+    "condition": "无初始 TC 的地图；Nomad 有潜在船坞捕鱼，而 African Clearing 的岸鱼/池塘与行军空间形成不同约束。两图不能共用同一个固定开局。",
+    "steps": [
+      "在有限探索内比较可持续食物、木线、金石和队友位置；记录为选址多走路的代价。",
+      "Nomad 另核对船坞村安全、可捕鱼水面及未来转移路线；African Clearing 核对村民到食物与木材的距离。",
+      "落 TC 后立即更新敌我位置关系：贴脸局、被夹局与远端安全局应调整速城与防御投资。",
+      "墙线要保留军队出入口与资源扩张路径；遭遇压制时预先指定可迁移的第二资源区。"
+    ],
+    "drill": "保存 5 个不同出生点，给每个点写下“选址理由、已知缺陷、触发改计划的信息”；用同一个种子测试两处 TC，而不是只比较升级时间。",
+    "metric": "TC 开建时间与为选址增加的行走时间；10/15/20 分钟可安全使用的食物与金矿；渔业或岸鱼受压后的经济恢复时间；升城前是否已识别最近敌人和可行增援路线",
+    "metricShort": "选址代价与安全资源",
+    "pitfall": "把某文明演示当所有文明通用流程；为了漂亮墙线把自己封在缺金、缺木或无法出兵的区域。",
+    "sources": [
+      "f1re-nomad-20261020",
+      "f1re-african-20261020",
+      "official-naval-169123"
+    ],
+    "addedAt": "2026-11-16"
+  },
+  {
+    "id": "map-hybrid-budget",
+    "title": "混合图：为下一单位水军写出停止投资条件",
+    "mode": "solo",
+    "alsoTeam": true,
+    "tag": "地图专项",
+    "map": "混合图 / 海图",
+    "icon": "flag",
+    "level": "MAP / 4",
+    "desc": "水面优势只有转成持续食物、黄金或陆地机会才有意义；输水也不必自动等于输局。",
+    "condition": "水陆均能投入经济或军队；队伍准备争水、保鱼或通过陆地惩罚敌方水军投入。",
+    "steps": [
+      "先核实当前正式版本船型克制、渔船机制和升级路径；把重做前教程的时序与兵数列为待重测。",
+      "赛前声明主争水、最低保鱼或让水打陆的计划，附侦察触发条件；群局另报队友水陆投资。",
+      "每轮续船前检查：还能保护多少有效采集、对手续船与船坞位置如何、陆地是否存在可兑现窗口。",
+      "达到停止条件就转木材与黄金用途；保留回水所需视野和船坞条件，但不为夺回水面而无限续投。"
+    ],
+    "drill": "同一混合图比较保鱼、争水、让水打陆三条路线；固定观察时段，记录净资源与陆地压力。训练方案由本站设计，不是 Hera 视频的逐条结论。",
+    "metric": "水面累计投入对比安全采集的实际资源；战船空转时间、渔船停工与损失；水面升级导致的陆军/升城延迟；停止条件出现后转产所需时间",
+    "metricShort": "水陆净收益与止损转产",
+    "pitfall": "沿用 2025 火船克制和渔船回本估算；把占领空水面当作成功，却错过陆地破口或升城窗口。",
+    "sources": [
+      "official-naval-169123",
+      "hera-wu-hybrid-20250515",
+      "f1re-mapplans-20261020"
+    ],
+    "addedAt": "2026-11-16"
   }
 ];

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="data.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="cloud-sync.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -30,13 +31,15 @@
   <div class="workspace">
     <header class="topbar">
       <div class="breadcrumb"><button class="icon-button menu-toggle" id="menu-toggle" aria-label="展开导航" aria-expanded="false" data-icon="menu"></button><span>研习社</span><span class="slash">/</span><strong id="page-label">训练总览</strong></div>
-      <div class="top-actions"><button class="search-trigger" id="search-trigger"><span data-icon="search"></span><span>搜索战术、选手、工具</span><kbd>/</kbd></button><button class="icon-button saved-trigger" id="saved-trigger" aria-label="查看已收藏资料"><span data-icon="bookmark"></span><i id="saved-count">0</i></button><div class="avatar" title="本地训练档案">研</div></div>
+      <div class="top-actions"><button class="search-trigger" id="search-trigger"><span data-icon="search"></span><span>搜索战术、选手、工具</span><kbd>/</kbd></button><button class="cloud-status-button" id="cloud-status-button" aria-label="Google Drive 同步设置"><span data-icon="refresh"></span><span id="cloud-status-text">本机档案</span></button><button class="icon-button saved-trigger" id="saved-trigger" aria-label="查看已收藏资料"><span data-icon="bookmark"></span><i id="saved-count">0</i></button><button class="profile-trigger" id="profile-trigger" aria-label="登录或切换用户"><span class="avatar" id="user-avatar">研</span><span class="profile-trigger-copy"><strong id="current-user-name">我的训练档案</strong><small>免密码切换 ▾</small></span></button></div>
     </header>
     <main id="main" tabindex="-1"></main>
     <footer class="site-footer"><span>帝国研习社 <span class="footer-cross">✦</span> 学会像高手一样思考。</span><a href="https://github.com/Yinita/aoe2de-expert" target="_blank" rel="noopener noreferrer">开源仓库 ↗</a><span>资料核验 · 2026.11.16</span></footer>
   </div>
   <dialog id="lesson-dialog" class="lesson-dialog"><div id="lesson-content"></div></dialog>
   <dialog id="search-dialog" class="search-dialog"><form method="dialog"><button class="icon-button dialog-close" aria-label="关闭搜索">×</button></form><label for="global-search"><span data-icon="search"></span> 在研习社里寻找</label><input id="global-search" type="search" placeholder="试试：兵力窗口、Hera、CaptureAge…" autocomplete="off"><div id="search-results" class="search-results"></div></dialog>
+  <dialog id="profile-dialog" class="profile-dialog"><div id="profile-content"></div></dialog>
+  <dialog id="sync-dialog" class="profile-dialog"></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
